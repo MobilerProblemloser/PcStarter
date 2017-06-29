@@ -1,3 +1,5 @@
+## http://boxstarter.org/package/url?https:// [RAW URL]
+
 Enable-RemoteDesktop
 
 cinst javaruntime -y
@@ -11,3 +13,4 @@ cinst pdfcreator -y
 cinst silverlight -y
 cinst flashplayerplugin -y
 cinst classic-shell -y
+
