@@ -1,5 +1,6 @@
 ## http://boxstarter.org/package/url?https:// [RAW URL]
 
+Update-ExecutionPolicy Unrestricted
 Enable-RemoteDesktop
 
 cinst javaruntime -y
@@ -14,3 +15,6 @@ cinst silverlight -y
 cinst flashplayerplugin -y
 cinst classic-shell -y
 
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+
+install-windowsupdate -accepteula
